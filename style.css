@@ -173,14 +173,29 @@ body {
 
  .call-to-action {
     /* background-color: rgb(63, 66, 253);  */
-    flex: 1;
+    /* flex: 1; */
     margin: 50px 150px;
     border-radius: 13px;
     background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 100px;
  }
 
+ .bottom-signup {
+    background-color: #3882f6;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    
+    /* margin-top: 8px; */
+    padding: 8px 20px;
+    /* border: 0; */
+    
+}
+
  .footer {
-    background-color: rgb(253, 238, 31); 
+    background-color: #E5E7EB; 
     height: 50px;
     display: flex;
     justify-content: center;
@@ -199,3 +214,8 @@ body {
     font-size: 18px;
   }
 
+  .cta-text h3, .cta-text p {
+    margin: 0;
+    padding: 0;
+    color: #F9FAF8;
+  }
