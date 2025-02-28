@@ -1,4 +1,5 @@
 body {
+    font-family: "Roboto", 'Helvetica Neue', sans-serif;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -7,21 +8,52 @@ body {
 }
 
 .header {
-   background-color: black; 
+   background-color: #1F2937; 
    color: white;
-   height: 40px;
+   height: 50px;
    display: flex;
    justify-content: space-between;
    align-items: center;
+   padding: 0 150px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .links {
     display: flex;
+    gap: 20px;  
 }
 
 .hero-main {
     background-color: rgb(212, 45, 45); 
-    flex: 1;
+    /* flex: 1; */
+    display: flex;
+    justify-content: center;
+ }
+
+ .hero-sign {
+    background-color: rgb(68, 241, 34);
+    margin: 55px 0 55px 150px;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center; 
+    gap: 20px;
+    /* flex-shrink: 0; */
+ }
+
+ .hero-img {
+    background-color: rgb(68, 241, 34);
+    flex-shrink: 0;
+    display: flex;
+    /* flex-direction: column;   */
+    /* justify-content: center;  */
+    padding: 80px 150px; /* SOLO PER INGRANDIRE IL BACKGROUND */
+    margin: 55px 150px 55px 40px;
+    /* gap: 20px; */
  }
 
  .random-info {
@@ -42,4 +74,19 @@ body {
  .footer {
     background-color: rgb(253, 238, 31); 
     height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
+
+ ul {
+    margin: 0;
+    padding: 16px;
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+  }
