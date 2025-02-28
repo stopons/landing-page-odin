@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.header {
+   background-color: black; 
+   color: white;
+   height: 40px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.links {
+    display: flex;
+}
+
+.hero-main {
+    background-color: rgb(212, 45, 45); 
+    flex: 1;
+ }
+
+ .random-info {
+    background-color: rgb(116, 184, 27); 
+    flex: 1;
+ }
+
+ .quote {
+    background-color: rgb(245, 118, 245); 
+    flex: 1;
+ }
+
+ .call-to-action {
+    background-color: rgb(63, 66, 253); 
+    flex: 1;
+ }
+
+ .footer {
+    background-color: rgb(253, 238, 31); 
+    height: 50px;
+ }
